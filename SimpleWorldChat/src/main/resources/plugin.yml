@@ -1,0 +1,14 @@
+name: Simple World Chat
+main: com.musicalcreeper01.chat.WorldChat
+version: 1.0.0
+author: MusicalCreeper01
+commands:
+   chat:
+      description: The main chat group command
+      usage: /chat bypass
+      permission: worldchat.user
+      permission-message: You don't have <permission>
+permissions:
+    worldchat.bypass:
+        description: Allows the person to bypass the chat restrictions, and talk in all the worlds
+        default: op
